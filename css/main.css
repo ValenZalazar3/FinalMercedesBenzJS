@@ -1,0 +1,300 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: rgb(226,226,226);
+  background: linear-gradient(180deg, rgba(226,226,226,1) 25%, rgba(190,190,190,1) 50%);
+}
+.nav{
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  height: 5rem;
+  z-index: 2;
+  display: grid;
+  grid-template-areas: 
+  "inicio hatch sedan suv coupe cabrio";
+  grid-template-rows: 100%;
+  grid-template-columns: 40% 12% 12% 12% 12% 12%;
+  justify-items: center;
+  align-items: center;
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7539390756302521) 100%);
+  box-shadow: 0px 0px 10px black;
+}
+.inicio{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  text-align: left;
+  grid-area: inicio;
+}
+.hatch{
+  grid-area: hatch;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+.sedan{
+  grid-area: sedan;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+.suv{
+  grid-area: suv;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+.coupe{
+  grid-area: coupe;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+.cabrio{
+  grid-area: cabrio;
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+h5{
+  font-size: 3rem;
+  padding-bottom: 4rem;
+}
+.img{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bannerp{
+  background-image: url(./img/amg45grande.jpg);
+}
+.bannerr{
+  background-image: url(./img/interioramg.jpg);
+}
+.bannern{
+  background-image: url(./img/interiorAmgnegro.jpg);
+}
+.banners{
+  background-image: url(./img/amgGTgranderande.jpg);
+}
+.bannerm{
+  background-image: url(./img/amgGrande.jpg);
+}
+.img1{
+  background-image: url(./img/clasea.jpg);
+}
+.img2{
+  background-image: url(./img/claseAsedan.jpg);
+}
+.img3{
+  background-image: url(./img/gla.jpg);
+}
+.img4{
+  background-image: url(./img/ccoupe.jpg);
+}
+.img5{
+  background-image: url(./img/ccabrio.jpg);
+}
+.img6{
+  background-image: url(./img/amga45.jpeg);
+}
+.img7{
+  background-image: url(./img/ClaseEseda.jpg);
+}
+.img8{
+  background-image: url(./img/glc.jpg);
+}
+.img9{
+  background-image: url(./img/ecoupe.JPG);
+}
+.img10{
+  background-image: url(./img/amggt.jpg);
+}
+#section{
+  display: grid;
+  grid-template-areas: 
+  "saludo saludo"
+  "claseA claseAb"
+  "claseAs claseEs"
+  "gla glc"
+  "claseCc claseEc"
+  "claseCca amg"
+  "carrito carrito";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 0% 18% 18% 18% 18% 18% auto;
+
+}
+#carritosec{
+  grid-area: carrito ;
+  border-top: 1px solid rgb(109, 109, 109);
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.carritoh{
+  text-align: center;
+}
+.saludo{
+  grid-area: saludo ;
+  text-align: center;
+  font-size: 2rem;
+  z-index: 2;
+  margin-top: 1rem;
+}
+#titulo{
+  margin-left: 16rem;
+  margin-right: 16rem;
+  border-radius: 10px;
+  border: 1px solid rgb(7, 230, 238);
+  box-shadow: 0px 0px 5px rgb(7, 230, 238);
+  background-color: rgb(7, 230, 238);
+}
+
+.claseA{
+  grid-area: claseA ;
+}
+.claseAb{
+  grid-area: claseAb ;
+}
+.claseAs{
+  grid-area: claseAs ;
+}
+.claseEs{
+  grid-area: claseEs ;
+}
+.gla{
+  grid-area: gla ;
+}
+.glc{
+  grid-area: glc ;
+}
+.claseCc{
+  grid-area: claseCc ;
+}
+.claseEc{
+  grid-area: claseEc ;
+}
+.claseCca{
+  grid-area: claseCca ;
+}
+.amg{
+  grid-area: amg ;
+}
+.div-autos{
+  display: grid;
+  grid-template-areas: 
+  "imgauto h"
+  "imgauto p";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 25% 75%;
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px;
+}
+.imgauto{
+  grid-area: imgauto;
+  margin-bottom: 0.5rem;
+}
+.h{
+  grid-area: h;
+  text-align: center;
+}
+.p{
+  grid-area: p;
+}
+.h1js{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.eliminar{
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 1px solid rgb(116, 116, 116);
+  box-shadow: 0px 0px 5px black;
+  background-color: rgb(255, 255, 35);
+  transition: all 300ms;
+}
+.eliminar:hover {
+  transform: scale(1.1);
+}
+.imgjs{
+  border-radius: 3px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65px;
+  width: 65px;
+}
+.lijs{
+  padding-bottom: 0.5rem;
+  border-bottom: 0.3px solid rgb(134, 134, 134);
+  margin-bottom: 1rem;
+  margin-right: 4rem;
+}
+
+.carrito{
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: 1px solid rgb(116, 116, 116);
+  box-shadow: 0px 0px 5px black;
+  background-color: rgb(255, 255, 35);
+  transition: all 300ms;
+  font-size: 0.8rem;
+}
+.carrito:hover {
+  transform: scale(1.1);
+}
+
+footer{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4374124649859944) 100%);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.616);
+  display: grid;
+  grid-template-areas: 
+  "contacto tunning maps"
+  "contac-p tunning-p maps";
+  grid-template-columns: 30% 30% auto;
+  grid-template-rows: repeat(2, auto);
+  color: rgba(230, 230, 230, 0.719);
+  text-align: center;
+  height: 13rem;
+  justify-items: center;
+  align-items: center;
+}
+.contacto{
+  grid-area: contacto;
+  margin-top: 2rem;
+}
+.tunning{
+  grid-area: tunning;
+  margin-top: 2rem;
+}
+.maps{
+  grid-area: maps;
+  background-image: url(./img/Maps.jpeg);
+  height: 80%;
+  width: 50%;
+}
+.contac-p{
+  grid-area: contac-p;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.tunning-p{
+  grid-area: tunning-p;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}

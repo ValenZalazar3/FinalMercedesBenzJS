@@ -1,0 +1,34 @@
+[
+    {
+    "hatchA": "Clase A Hatchback", "hatchApre": 200000,
+    "hatchAp": "¿Porque es tan especial? Lo mejor es que le pregures directamente. Si! El Clase A habla, entiende, piensa y causa una impresión asombrosamente humana.",
+
+    "aSedan": "Clase A Sedan", "aSedanpre": 15000,
+    "aSedanp": "Parece revolucionario, y lo es! El nueco Clase A Sedan con MBUX (Mercedes Benz User Experience) y deportivo diseño de tres volúmenes.",
+
+    "Gla": "GLA SUV", "Glapre": 15000,
+    "Glap": "Ciudad, campo. ciudad. Tan activo como vos. La nueva GLA es el acompañante ideal para un estilo de vida polifacético.",
+
+    "Coupe": "Clase C Coupe", "Coupepre": 30000,
+    "Coupep": "El dinamismo es una actitud. Consiste en no dormise nunca en los laureles. En hacer gala continuamente de fuerza innovadora.",
+
+    "Cca": "Clase C Cabrio", "Ccapre": 30000,
+    "Ccap": "El Clase C Cabrio se muestra siempre en plena forma, tanto en el exterior como en el interior. Viene directamente de un crso de entrenamiento intensivo y se muestra siempre en el mejor estado que existe.",
+
+    
+    "Amg": "AMG A 45", "Amgpre": 20000,
+    "Amgp": "Inovador, deportivo, dinámico. Si no te enamoraste de tu AMG A 45, te diríamos que te devolvemos el dinero, pero sabemos que es imposible!",
+
+    "Esedan": "Clase E Sedan", "Esedanpre": 25000,
+    "Esedanp": "Un dechado de dinamismo, se mire como se mire. Listo para afrontar con soltura cualquier desafío, por imponente que parezca. Más dinámico, más elegante y más lujoso que nunca.",
+
+    "Glc": "GLC SUV", "Glcpre": 16000,
+    "Glcp": "Más que una SUV. Más que una coupé. Más que nunca. La nueva GLC conjuega los mejores atributos de los SUV y los coupés. Mas deportiva y más moderna que nunca.",
+
+    "Ecoupe": "Clase E Coupe", "Ecoupepre": 15000,
+    "Ecoupep": "No te conformes con menos. En todos los aspectos el diseño purista basado en la claridad sensual con el carácter potente y deportico de Mercedes Benz",
+
+    "AmgGt": "AMG GT Cabio", "AmgGtpre": 20000,
+    "AmgGtp": "Acá se vizualiza el futuro. Es un super deportivo ya caracterizado por sus siglas AMG, las que ya dan cuenta de su alta performance. Motor V8, 0 a 100 en 3.7 segundos, y con una veocidad maxima de 312km/h. "
+    }
+]
